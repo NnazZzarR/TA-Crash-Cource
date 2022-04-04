@@ -1,3 +1,5 @@
+package Homework_04_04;
+
 public class checkBrick {
     public void check(int a, int b, int c, int x, int y){
         System.out.print("Task#1 : ");

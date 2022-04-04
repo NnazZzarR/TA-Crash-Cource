@@ -1,3 +1,5 @@
+package Homework_04_04;
+
 public class naturalNumber {
     public void result(int n){
         System.out.println("Task#2 : n = " + n);
