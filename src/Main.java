@@ -1,3 +1,7 @@
+import Homework_04_04.ThirdTask;
+import Homework_04_04.checkBrick;
+import Homework_04_04.naturalNumber;
+
 import java.io.IOException;
 
 public class Main {
