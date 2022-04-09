@@ -1,11 +1,16 @@
-import Homework_04_04.Task_5.Dog;
+import Homework_04_04.Task_1.checkBrick;
+import Homework_04_04.Task_2.naturalNumber;
+import Homework_04_04.Task_3.ThirdTask;
+import Homework_04_04.Task_4.Person;
+import Homework_04_04.Task_5.*;
+import static Homework_04_04.Task_5.HTTP.method;
 
 import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
         // homework 04.04
-        /*
+
         //Task#1
         checkBrick first = new checkBrick();
         first.check(3, 2, 1, 1, 2);
@@ -37,18 +42,19 @@ public class Main {
         C.changeName("Olena");
         C.output();
 
-
+        //Task#5
         FifthTaskAItem ft = new FifthTaskAItem();
+        ft.AFirstItem();
         ft.ASecondItem();
-
         method();
 
-*/
         Dog s = new Dog("DD", 12, Dog.Breed.Akita);
         Dog f = new Dog("DD", 14, Dog.Breed.Dorgi);
         Dog x = new Dog("SS", 19, Dog.Breed.Boxer);
         System.out.println(s.equals(f));
         System.out.println(s.equals(x));
         System.out.println(f.equals(x));
+
+        
     }
 }
