@@ -1,4 +1,4 @@
-package Homework_04_04;
+package Homework_04_04.Task_1;
 
 public class checkBrick {
     public void check(int a, int b, int c, int x, int y){

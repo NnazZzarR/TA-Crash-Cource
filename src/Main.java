@@ -1,10 +1,6 @@
-import Homework_04_04.*;
+import Homework_04_04.Task_5.Dog;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
-import static Homework_04_04.HTTP.method;
-import static Homework_04_04.Dog.theOldestDog;
 
 public class Main {
     public static void main(String[] args) throws IOException {
