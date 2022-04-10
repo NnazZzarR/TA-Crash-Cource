@@ -1,4 +1,4 @@
-package Homework_04_04;
+package Homework_04_04.Task_2;
 
 public class naturalNumber {
     public void result(int n){
