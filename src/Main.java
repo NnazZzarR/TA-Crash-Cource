@@ -4,6 +4,7 @@ import Homework_04_04.Task_3.ThirdTask;
 import Homework_04_04.Task_4.Person;
 import Homework_04_04.Task_5.*;
 import static Homework_04_04.Task_5.HTTP.method;
+import Homework_04_04.Task_6.Button;
 
 import java.io.IOException;
 
@@ -56,7 +57,19 @@ public class Main {
         System.out.println(s.equals(x));
         System.out.println(f.equals(x));
 
-*/
+        //Task#6
+        Button loginButton = new Button();
+        loginButton.setTextButton("Login");
+        loginButton.setColorButton("Red");
+        loginButton.setWidthButton(300);
+        loginButton.setHeightButton(40);
+        loginButton.setStatusButton(Button.statusButton.Default);
+        System.out.println(loginButton);
 
+        Button submitButton = new Button("Submit", "Green", 100, 35, Button.statusButton.Hover);
+        System.out.println(submitButton.getTextButton());
+        System.out.println(submitButton.getStatusButton());
+        */
+        
     }
 }
